@@ -206,7 +206,7 @@ input:focus {
 /***** ----- page title part start ----- *****/
 
 .page-title-area {
-    background: url('/progress-bg.jpg') no-repeat scroll center top / cover;
+    background: url("/progress-bg.jpg") no-repeat scroll center top / cover;
     padding: 140px 0 100px;
     position: relative;
 }
