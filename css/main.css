@@ -803,7 +803,7 @@ nav {
     ================================ */
 
 .progress-area {
-    background: rgba(0, 0, 0, 0) url("progress-bg.jpg") no-repeat fixed 0 0 / cover;
+    background: rgba(0, 0, 0, 0) url("/progress-bg.jpg") no-repeat fixed 0 0 / cover;
     position: relative;
 }
 
