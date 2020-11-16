@@ -683,46 +683,6 @@
                         <p></p>
                         <p>Feel free to get in touch or just say hi! I'm always open to new opportunities.</p>
                         <!-- contact form -->
-                        <!--
-                        <div class="contact-form">
-                            <form action="mail.php" method="POST" id="active-contact-form">
-                                <div class="row">
-                                    <div class="col-sm-6 col-md-6">
-                                        <div class="form-content">
-                                            <input name="name" placeholder="Your Name" class="form-control" required="" type="text">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-6">
-                                        <div class="form-content">
-                                            <input name="email" placeholder="Your Email" class="form-control" required="" type="email">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-6 col-md-6">
-                                        <div class="form-content">
-                                            <input name="phone" placeholder="Phone Number" class="form-control" type="text">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-6">
-                                        <div class="form-content">
-                                            <input name="subject" placeholder="Subject" class="form-control" type="text">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-message">
-                                            <textarea class="field-element form-control" data-gramm="true" spellcheck="false" data-gramm_editor="true" name="message" placeholder="Message" required=""></textarea>
-                                        </div>
-                                        <button type="submit" name="submit" class="oxe-btn hvr-shutter-out-horizontal sent-button">send message</button>
-                                    </div>
-                                </div>
-                            </form>
-                            <p class="thank-you-message"></p>
-                        </div>
-                        -->
-                        <!-- /.contact form -->
                     </div>
                     <!-- /.contact form content -->
                 </div>
@@ -733,7 +693,6 @@
                         <div class="address-info">
                             <ul>
                                 <li><span><i class="fa fa-envelope" aria-hidden="true"></i> email</span><a href="#"></a>kathleenwang733@gmail.com</a></li>
-                                <!--<li><span><i class="fa fa-phone" aria-hidden="true"></i> phone</span><a href="#">+256-4516-556, +(257) 56812749</a></li>-->
                                 <li><span><i class="fa fa-map-marker" aria-hidden="true"></i> Hometown</span> Collegeville, PA</li>
                             </ul>
                         </div>
@@ -757,7 +716,10 @@
                 <div class="col-md-4 col-sm-5 text-right">
                     <div class="subscribe-form">
                         <input type="email" name="email" placeholder="kathleenwang733@gmail.com">
-                        <button onclick="https://www.mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=kathleenwang733@gmail.com" ></button>Get in Touch</button>
+                        <form action="https://www.mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=kathleenwang733@gmail.com">
+                            <input type="submit" value="Get in Touch" />
+                        </form>
+                        <button type="submit" name="submit" class="oxe-btn hvr-shutter-out-horizontal sent-button">send message</button>
                     </div>
                 </div>
             </div>
