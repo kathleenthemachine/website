@@ -93,6 +93,13 @@ input:focus {
 }
 
 /***** ----- preloader part start ----- *****/
+#loader{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000000 url("/preloader.gif") no-repeat center;
+    z-index: 999;
+}
 
 .preloader {
     position: fixed;
@@ -568,6 +575,7 @@ nav {
 .person img {
     transition: 0.5s;
 }
+
 
 .about-img:hover .person img {
     opacity: .5;
