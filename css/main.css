@@ -1467,12 +1467,12 @@ h3.comment-heading {
     position: absolute;
     right: -10px;
     top: 0;
-    border-left: 1px solid #fff;
+    border-left: 1px solid #1F1F1F;
 }
 
 .contact-info-content {
     padding: 9px 0 9px 30px;
-    border-left: 1px solid #fff;
+    border-left: 1px solid #1F1F1F;
     position: relative;
     padding-top: ;
 }
@@ -1483,7 +1483,7 @@ h3.comment-heading {
     position: absolute;
     left: 5px;
     bottom: 0;
-    border-left: 1px solid #fff;
+    border-left: 1px solid #1F1F1F;
 }
 
 .contact-info-content h2 {
