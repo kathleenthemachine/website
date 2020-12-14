@@ -1464,7 +1464,7 @@
     
     .contact-info-content {
         padding: 9px 0 9px 30px;
-        border-left: 1px solid #fff;
+        border-left: 1px solid #000000;
         position: relative;
         padding-top: ;
     }
@@ -1475,18 +1475,18 @@
         position: absolute;
         left: 5px;
         bottom: 0;
-        border-left: 1px solid #fff;
+        border-left: 1px solid #000000;
     }
     
     .contact-info-content h2 {
         font-size: 26px;
         text-transform: capitalize;
-        color: #fff;
+        color: #000000;
     }
     
     .contact-info-content p {
         margin: 20px 0 0;
-        color: #fff;
+        color: #000000;
     }
     
     .form-content {
@@ -1496,7 +1496,7 @@
     .form-content input {
         height: 50px;
         background-color: transparent;
-        color: #fff;
+        color: #000000;
         border-color: #777;
     }
     
@@ -1505,7 +1505,7 @@
         margin: 0 0 20px;
         padding: 20px 10px !important;
         background-color: transparent !important;
-        color: #fff !important;
+        color: #000000 !important;
         border-color: #777 !important;
     }
     
@@ -1539,7 +1539,7 @@
     .address-info ul li {
         list-style: none;
         margin-bottom: 15px;
-        color: #fff;
+        color: #000000;
     }
     
     .address-info ul li:last-child {
@@ -1547,19 +1547,19 @@
     }
     
     .address-info ul li a {
-        color: #fff;
+        color: #000000;
     }
     
     .address-info ul li span {
         display: block;
         text-transform: capitalize;
-        color: #fff;
+        color: #000000;
         font-weight: 600;
     }
     
     .address-info ul li span i.fa {
         margin-right: 5px;
-        color: #fff;
+        color: #000000;
     }
     
     #map {
