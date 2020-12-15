@@ -291,7 +291,8 @@
         animation-timing-function: ease-out, ease-in-out;
         bottom: 0;
         color: #fff;
-        content: "ï‚¦";
+        /*content: "ï‚¦";*/
+        content: "↑";
         font-size: 25px;
         left: 0;
         position: absolute;
