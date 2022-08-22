@@ -193,6 +193,10 @@
     .section-title h2 {
         font-size: 35px;
         color: #fff;
+        margin-bottom: auto;
+    }
+    .relevant-exp {
+        margin-bottom: 40px;
     }
     
     .section-title p {
@@ -533,7 +537,8 @@
     }
     
     .about-info {
-        padding: 68px 0;
+        padding: 75px 0;
+        margin-left: 10px;
     }
     
     .about-info a.oxe-btn {
@@ -568,6 +573,7 @@
     
     .person img {
         transition: 0.5s;
+        margin-top: 40px;
     }
     
     .about-img:hover .person img {
